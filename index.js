@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const fs = require('fs');
 const cors = require('cors');
-const urlOrigin = 'http://localhost:3000'
+const urlOrigin = 'https://op-front-end.onrender.com/'
 
 
 app.use(cors());
@@ -62,5 +62,5 @@ app.delete('/items/:id', (req, res) => {
 });
 
 app.listen(3001, () => {
-  console.log('API running on http://localhost:3000');
+  console.log('API running on http://localhost:3001');
 });
