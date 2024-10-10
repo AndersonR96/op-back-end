@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const fs = require('fs');
 const cors = require('cors');
-const urlOrigin = 'https://op-front-end.onrender.com'
+const urlOrigin = '*'
 
 
 app.use(cors());
